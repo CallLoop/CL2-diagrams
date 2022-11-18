@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T08:34:01.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HgAj44wh2BR4Lylji-eC" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T09:32:29.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xtMtwG0l18qEoVzrIcnh" version="20.5.1" type="github">
   <diagram id="vThjLkdaLrChTEGQis4w" name="API Gateway rules">
     <mxGraphModel dx="1341" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
         <mxCell id="aJCi2LfdPKJOA3wetlMQ-5" value="api.&lt;b&gt;stg&lt;/b&gt;.callloop.com" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="115" y="200" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aJCi2LfdPKJOA3wetlMQ-6" value="api.&lt;b&gt;app&lt;/b&gt;.callloop.com &lt;b&gt;(prod)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="aJCi2LfdPKJOA3wetlMQ-6" value="api.callloop.com &lt;b&gt;(prod)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="60" y="240" width="215" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aJCi2LfdPKJOA3wetlMQ-8" value="trigger-input" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;fontSize=14;" parent="1" vertex="1">
