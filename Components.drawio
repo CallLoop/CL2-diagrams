@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T08:59:42.042Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_2ZmFTJwuBL0NyAoe3SM" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-18T09:00:10.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="f3EsVxgHJOrVjmaHIoQq" version="20.5.1" type="github" pages="2">
   <diagram id="nQRE1pN4An59JL1PhJQr" name="Components">
     <mxGraphModel dx="1316" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -222,7 +222,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XVXjPDOLn_KU066pgajj-6" value="Billing Service" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/general/Cost_Management_and_Billing.svg;fontStyle=1" vertex="1" parent="XVXjPDOLn_KU066pgajj-3">
-          <mxGeometry x="360" y="150" width="80" height="80" as="geometry" />
+          <mxGeometry x="350" y="150" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XVXjPDOLn_KU066pgajj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="XVXjPDOLn_KU066pgajj-3" source="XVXjPDOLn_KU066pgajj-5" target="XVXjPDOLn_KU066pgajj-6">
           <mxGeometry relative="1" as="geometry" />
