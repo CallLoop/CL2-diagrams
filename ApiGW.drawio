@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T08:33:39.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Fph1DYUjrzbznDvx0Sxz" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T08:34:01.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HgAj44wh2BR4Lylji-eC" version="20.5.1" type="github">
   <diagram id="vThjLkdaLrChTEGQis4w" name="API Gateway rules">
     <mxGraphModel dx="1341" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BPBLQY2pXgUHWdL-GGip-3" value="POST /auth/{proxy+}," style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;align=center;spacingLeft=0;verticalAlign=middle;horizontal=1;" parent="1" source="aJCi2LfdPKJOA3wetlMQ-1" target="BPBLQY2pXgUHWdL-GGip-2" edge="1">
+        <mxCell id="BPBLQY2pXgUHWdL-GGip-3" value="POST /auth/{proxy+}," style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;align=center;spacingLeft=0;verticalAlign=middle;horizontal=1;" parent="1" source="aJCi2LfdPKJOA3wetlMQ-1" target="BPBLQY2pXgUHWdL-GGip-2" edge="1">
           <mxGeometry x="0.3388" y="20" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="290" y="135" />
