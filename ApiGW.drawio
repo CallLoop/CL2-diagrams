@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T09:32:29.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xtMtwG0l18qEoVzrIcnh" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T09:32:46.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yJurPbkg0uPlZT44ab_k" version="20.5.1" type="github">
   <diagram id="vThjLkdaLrChTEGQis4w" name="API Gateway rules">
     <mxGraphModel dx="1341" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
         <mxCell id="aJCi2LfdPKJOA3wetlMQ-1" value="api.&lt;b&gt;dev&lt;/b&gt;.callloop.com" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="115" y="120" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aJCi2LfdPKJOA3wetlMQ-9" value="POST/GET /webhook/{&lt;b&gt;app&lt;/b&gt;}/{uuid}" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;align=center;spacingLeft=0;verticalAlign=middle;horizontal=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aJCi2LfdPKJOA3wetlMQ-1" target="aJCi2LfdPKJOA3wetlMQ-8" edge="1">
+        <mxCell id="aJCi2LfdPKJOA3wetlMQ-9" value="POST/GET /webhook/{&lt;b&gt;any&lt;/b&gt;}/{uuid}" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;align=center;spacingLeft=0;verticalAlign=middle;horizontal=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aJCi2LfdPKJOA3wetlMQ-1" target="aJCi2LfdPKJOA3wetlMQ-8" edge="1">
           <mxGeometry x="-0.3099" y="15" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="290" y="135" />
