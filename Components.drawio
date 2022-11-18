@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T09:31:57.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="OJAQuvl1q_T5WEsn3zM1" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-18T09:33:29.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ZCWAsTBmVpa3yvrGDivf" version="20.5.1" type="github" pages="2">
   <diagram id="nQRE1pN4An59JL1PhJQr" name="Components">
     <mxGraphModel dx="1316" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -180,9 +180,11 @@
         <mxCell id="VRYah3EjvfzrCM_-gziz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" edge="1" parent="1" source="KvJEF60NvhNmNptdvNRv-1" target="VRYah3EjvfzrCM_-gziz-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KvJEF60NvhNmNptdvNRv-1" value="https://api.{env}.callloop.com" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
-          <mxGeometry x="500" y="40" width="80" height="80" as="geometry" />
-        </mxCell>
+        <UserObject label="https://api.{env}.callloop.com" link="https://github.com/CallLoop/CL2-diagrams/blob/main/ApiGW.drawio" id="KvJEF60NvhNmNptdvNRv-1">
+          <mxCell style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=14;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
+            <mxGeometry x="500" y="40" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="KvJEF60NvhNmNptdvNRv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="KvJEF60NvhNmNptdvNRv-3" target="JKCkF7Gh0FQH5l83bfCf-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
