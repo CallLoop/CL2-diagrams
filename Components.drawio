@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T13:31:49.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tJh0WCpdD8yUdFnsycNs" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-24T13:34:22.271Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bSC5hIkZcqbCankil6OM" version="20.5.1" type="github" pages="3">
   <diagram id="nQRE1pN4An59JL1PhJQr" name="Components">
     <mxGraphModel dx="1341" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -339,7 +339,7 @@
         <mxCell id="nq_hCXWuUxoj5oQuRubP-2" value="Mikrotik + WiFi&lt;br&gt;Guest Net" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.wireless_modem;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="660" y="220" width="100" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="nq_hCXWuUxoj5oQuRubP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=none;startFill=0;exitX=0.16;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nq_hCXWuUxoj5oQuRubP-1" target="nq_hCXWuUxoj5oQuRubP-4">
+        <mxCell id="nq_hCXWuUxoj5oQuRubP-5" value="с хомутиком" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=none;startFill=0;exitX=0.16;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nq_hCXWuUxoj5oQuRubP-1" target="nq_hCXWuUxoj5oQuRubP-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="526" y="290" />
