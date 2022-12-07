@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T07:46:42.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="JyNO9hwsbeKLM1dwwBp4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-07T07:53:20.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="U3xDGVU1dfCECVVKMkqW" type="github">
   <diagram id="pLQpTA3qjlWy9otWFY8U" name="Page-1">
     <mxGraphModel dx="1316" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -75,7 +75,7 @@
         <mxCell id="bdOjsI9Eu3mLzu6R5T6B-22" value="Get Contact by id" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="760" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bdOjsI9Eu3mLzu6R5T6B-29" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=none;startFill=0;" edge="1" parent="1" source="bdOjsI9Eu3mLzu6R5T6B-25" target="bdOjsI9Eu3mLzu6R5T6B-10">
+        <mxCell id="bdOjsI9Eu3mLzu6R5T6B-29" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=none;startFill=0;" edge="1" parent="1" source="bdOjsI9Eu3mLzu6R5T6B-25" target="bdOjsI9Eu3mLzu6R5T6B-10">
           <mxGeometry x="-0.9699" y="10" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="970" y="620" />
@@ -84,11 +84,53 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="bdOjsI9Eu3mLzu6R5T6B-31" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startArrow=none;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bdOjsI9Eu3mLzu6R5T6B-25" target="bdOjsI9Eu3mLzu6R5T6B-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="620" />
+              <mxPoint x="730" y="390" />
+              <mxPoint x="490" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bdOjsI9Eu3mLzu6R5T6B-25" value="Company&lt;br&gt;associated?" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="780" y="580" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bdOjsI9Eu3mLzu6R5T6B-27" value="Update Member with HS id" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="760" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdOjsI9Eu3mLzu6R5T6B-34" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=none;startFill=0;" edge="1" parent="1" source="bdOjsI9Eu3mLzu6R5T6B-32" target="bdOjsI9Eu3mLzu6R5T6B-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bdOjsI9Eu3mLzu6R5T6B-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startArrow=none;startFill=0;" edge="1" parent="1" source="bdOjsI9Eu3mLzu6R5T6B-32" target="bdOjsI9Eu3mLzu6R5T6B-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bdOjsI9Eu3mLzu6R5T6B-32" value="payload has companyName?" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="425" y="410" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bdOjsI9Eu3mLzu6R5T6B-37" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=12;startArrow=none;startFill=0;" edge="1" parent="1" source="bdOjsI9Eu3mLzu6R5T6B-33" target="bdOjsI9Eu3mLzu6R5T6B-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bdOjsI9Eu3mLzu6R5T6B-33" value="set default name" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="590" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdOjsI9Eu3mLzu6R5T6B-39" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startArrow=none;startFill=0;" edge="1" parent="1" source="bdOjsI9Eu3mLzu6R5T6B-35" target="bdOjsI9Eu3mLzu6R5T6B-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bdOjsI9Eu3mLzu6R5T6B-35" value="Create Company" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="430" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdOjsI9Eu3mLzu6R5T6B-40" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=none;startFill=0;" edge="1" parent="1" source="bdOjsI9Eu3mLzu6R5T6B-38" target="bdOjsI9Eu3mLzu6R5T6B-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="680" />
+              <mxPoint x="970" y="55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdOjsI9Eu3mLzu6R5T6B-38" value="Associate contact with company" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="430" y="650" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
