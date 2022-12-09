@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T12:57:06.087Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="uXWVzEwsDj55yZNMlc7N" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-09T12:57:53.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="5xK4w-UD-bW8UJEGrXAJ" type="github">
   <diagram id="CZVI3IJxSEXpVUbZ43jJ" name="HubSpot Worker">
     <mxGraphModel dx="1316" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -89,8 +89,8 @@
             <Array as="points">
               <mxPoint x="700" y="410" />
               <mxPoint x="700" y="530" />
-              <mxPoint x="270" y="530" />
-              <mxPoint x="270" y="480" />
+              <mxPoint x="310" y="530" />
+              <mxPoint x="310" y="480" />
               <mxPoint x="125" y="480" />
             </Array>
             <mxPoint as="offset" />
