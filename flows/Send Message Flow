@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T14:27:09.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="qKEqcR59zVgehEjcIlxO" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-12-09T14:38:04.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="F09vZbB-u7cOMnX_9wVt" type="github" pages="3">
   <diagram id="25ELiOmT0lxaqsrhSLjX" name="Broadcast Sender Job">
     <mxGraphModel dx="2416" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -477,7 +477,12 @@
           <mxGeometry x="890" y="10" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gpHUenhmj4bYvGFyL8sT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="vewz0KSXTNuniTdHcMEz-1" target="lGJ4TUdBk7eTY2POH1tG-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="703" y="310" />
+              <mxPoint x="520" y="310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <UserObject label="&lt;span style=&quot;color: rgb(66, 119, 187); background-color: rgb(255, 255, 255);&quot;&gt;SendMessage Worker &lt;br&gt;(type=Broadcast)&lt;/span&gt;" id="vewz0KSXTNuniTdHcMEz-1">
           <mxCell style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#EE472A;gradientColor=none;aspect=fixed;" vertex="1" parent="1">
@@ -493,7 +498,12 @@
           </mxCell>
         </UserObject>
         <mxCell id="gpHUenhmj4bYvGFyL8sT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="vewz0KSXTNuniTdHcMEz-5" target="lGJ4TUdBk7eTY2POH1tG-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="282" y="310" />
+              <mxPoint x="460" y="310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <UserObject label="&lt;span style=&quot;color: rgb(66, 119, 187); background-color: rgb(255, 255, 255);&quot;&gt;SendMessage Worker &lt;br&gt;(type=Manual)&lt;/span&gt;" id="vewz0KSXTNuniTdHcMEz-5">
           <mxCell style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#EE472A;gradientColor=none;aspect=fixed;" vertex="1" parent="1">
