@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T15:29:20.500Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="PLzFZHXRrfcr2mJADYIW" version="20.6.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-12-09T16:07:01.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="7M6SrOSerO-j1agdRRCX" version="20.6.0" type="github" pages="3">
   <diagram id="25ELiOmT0lxaqsrhSLjX" name="Broadcast Sender Job">
     <mxGraphModel dx="2416" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -353,7 +353,7 @@
         <mxCell id="lGJ4TUdBk7eTY2POH1tG-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startArrow=classic;startFill=1;dashed=1;" parent="1" source="lGJ4TUdBk7eTY2POH1tG-12" target="lGJ4TUdBk7eTY2POH1tG-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ENL5_S7rYdqFHrsXw9Bc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="lGJ4TUdBk7eTY2POH1tG-12" target="ENL5_S7rYdqFHrsXw9Bc-1">
+        <mxCell id="ENL5_S7rYdqFHrsXw9Bc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="lGJ4TUdBk7eTY2POH1tG-20" target="ENL5_S7rYdqFHrsXw9Bc-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lGJ4TUdBk7eTY2POH1tG-12" value="Send to Twilio" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
@@ -541,8 +541,8 @@
             <mxGeometry x="679" y="20" width="48" height="48" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="ENL5_S7rYdqFHrsXw9Bc-1" value="contacts-integration" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=13;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="842" y="410" width="48" height="48" as="geometry" />
+        <mxCell id="ENL5_S7rYdqFHrsXw9Bc-1" value="contacts-integration" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=13;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;labelBorderColor=none;" parent="1" vertex="1">
+          <mxGeometry x="816" y="459" width="48" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
