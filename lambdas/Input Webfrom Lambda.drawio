@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-17T18:12:01.777Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Gtzr4w6EMB0b-HJ2G_Oe" version="20.5.1" type="github">
-  <diagram name="input webform lambda" id="AXhSCe27-4_vjdqXPUGm">
-    <mxGraphModel dx="1341" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-12-09T12:02:43.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="lbRrL0MQ9rhGLDGZyr8V" version="20.6.0" type="github" pages="2">
+  <diagram name="Lambda" id="AXhSCe27-4_vjdqXPUGm">
+    <mxGraphModel dx="1316" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="aQnDPnZ2FhOg2Dr7XkE3-0" />
         <mxCell id="aQnDPnZ2FhOg2Dr7XkE3-1" parent="aQnDPnZ2FhOg2Dr7XkE3-0" />
@@ -38,12 +38,7 @@
         <mxCell id="aQnDPnZ2FhOg2Dr7XkE3-11" value="Send Webform input to Queue" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="aQnDPnZ2FhOg2Dr7XkE3-2" vertex="1">
           <mxGeometry x="680" y="15" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="aQnDPnZ2FhOg2Dr7XkE3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="aQnDPnZ2FhOg2Dr7XkE3-2" source="aQnDPnZ2FhOg2Dr7XkE3-13" target="aQnDPnZ2FhOg2Dr7XkE3-24" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1005" y="32.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aQnDPnZ2FhOg2Dr7XkE3-13" value="webhook-input" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;labelBorderColor=none;rounded=1;" parent="aQnDPnZ2FhOg2Dr7XkE3-2" vertex="1">
+        <mxCell id="aQnDPnZ2FhOg2Dr7XkE3-13" value="webform-input" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;labelBorderColor=none;rounded=1;" parent="aQnDPnZ2FhOg2Dr7XkE3-2" vertex="1">
           <mxGeometry x="880" y="8.5" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="aQnDPnZ2FhOg2Dr7XkE3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="aQnDPnZ2FhOg2Dr7XkE3-2" source="aQnDPnZ2FhOg2Dr7XkE3-16" target="aQnDPnZ2FhOg2Dr7XkE3-18" edge="1">
@@ -83,11 +78,6 @@
         <mxCell id="aQnDPnZ2FhOg2Dr7XkE3-23" value="Response with&lt;br&gt;statusCode = code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="aQnDPnZ2FhOg2Dr7XkE3-2" vertex="1">
           <mxGeometry x="680" y="90" width="120" height="35" as="geometry" />
         </mxCell>
-        <UserObject label="WebHook Worker" id="aQnDPnZ2FhOg2Dr7XkE3-24">
-          <mxCell style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#EE472A;gradientColor=none;aspect=fixed;fontColor=#1726FF;fontStyle=5;fontSize=11;rounded=1;" parent="aQnDPnZ2FhOg2Dr7XkE3-2" vertex="1">
-            <mxGeometry x="987" y="8.5" width="48" height="48" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="aQnDPnZ2FhOg2Dr7XkE3-55" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;rounded=1;" parent="aQnDPnZ2FhOg2Dr7XkE3-1" vertex="1">
           <mxGeometry x="163" y="10" width="30" height="30" as="geometry" />
         </mxCell>
@@ -230,6 +220,14 @@
         <mxCell id="4QjAw26p4u-xFoR1v3yk-48" value="empty?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fad7ac;strokeColor=#b46504;rounded=1;" parent="4QjAw26p4u-xFoR1v3yk-19" vertex="1">
           <mxGeometry x="531" y="112.5" width="70" height="35" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4uUyNIvSS1Uv8s0VMNXG" name="Worker">
+    <mxGraphModel dx="1316" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
