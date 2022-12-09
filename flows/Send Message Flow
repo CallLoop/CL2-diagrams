@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T13:42:54.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="lhqt1mrTdIFz6S0NHj1s" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-09T13:56:45.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="BXdEPRi-WbORfQ5s7T9F" type="github" pages="2">
   <diagram id="pZ3W2Ftq2EvjK1gc3x_n" name="Message Packer Job">
     <mxGraphModel dx="1316" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -224,49 +224,58 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MsdRJLM9zdtMjF_x47k3-1" value="send-message-trigger.fifo" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=13;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="480" y="10" width="48" height="48" as="geometry" />
+          <mxGeometry x="466" y="120" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vewz0KSXTNuniTdHcMEz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GBYmNROyBl1REkO2jNJO-1" target="vewz0KSXTNuniTdHcMEz-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GBYmNROyBl1REkO2jNJO-1" value="send-message-manual.fifo" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=13;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="269" y="10" width="48" height="48" as="geometry" />
+          <mxGeometry x="258" y="120" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="vewz0KSXTNuniTdHcMEz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GBYmNROyBl1REkO2jNJO-2" target="vewz0KSXTNuniTdHcMEz-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GBYmNROyBl1REkO2jNJO-2" value="send-message-broadcast.fifo" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=13;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="690" y="10" width="48" height="48" as="geometry" />
+          <mxGeometry x="679" y="120" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="GBYmNROyBl1REkO2jNJO-3" value="&lt;h1&gt;Instanceable&lt;/h1&gt;&lt;p&gt;for each queue a new worker instance is used&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="890" y="10" width="190" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="gpHUenhmj4bYvGFyL8sT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="vewz0KSXTNuniTdHcMEz-1" target="lGJ4TUdBk7eTY2POH1tG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="&lt;span style=&quot;color: rgb(66, 119, 187); background-color: rgb(255, 255, 255);&quot;&gt;SendMessage Worker &lt;br&gt;(type=Broadcast)&lt;/span&gt;" id="vewz0KSXTNuniTdHcMEz-1">
           <mxCell style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#EE472A;gradientColor=none;aspect=fixed;" vertex="1" parent="1">
-            <mxGeometry x="690" y="100" width="48" height="48" as="geometry" />
+            <mxGeometry x="679" y="210" width="48" height="48" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="gpHUenhmj4bYvGFyL8sT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="vewz0KSXTNuniTdHcMEz-3" target="lGJ4TUdBk7eTY2POH1tG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="&lt;span style=&quot;color: rgb(66, 119, 187); background-color: rgb(255, 255, 255);&quot;&gt;SendMessage Worker &lt;br&gt;(type=Trigger)&lt;/span&gt;" id="vewz0KSXTNuniTdHcMEz-3">
           <mxCell style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#EE472A;gradientColor=none;aspect=fixed;" vertex="1" parent="1">
-            <mxGeometry x="480" y="100" width="48" height="48" as="geometry" />
+            <mxGeometry x="466" y="210" width="48" height="48" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="gpHUenhmj4bYvGFyL8sT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="vewz0KSXTNuniTdHcMEz-5" target="lGJ4TUdBk7eTY2POH1tG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="&lt;span style=&quot;color: rgb(66, 119, 187); background-color: rgb(255, 255, 255);&quot;&gt;SendMessage Worker &lt;br&gt;(type=Manual)&lt;/span&gt;" id="vewz0KSXTNuniTdHcMEz-5">
           <mxCell style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#EE472A;gradientColor=none;aspect=fixed;" vertex="1" parent="1">
-            <mxGeometry x="269" y="100" width="48" height="48" as="geometry" />
+            <mxGeometry x="258" y="210" width="48" height="48" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="vewz0KSXTNuniTdHcMEz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="vewz0KSXTNuniTdHcMEz-7" target="GBYmNROyBl1REkO2jNJO-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vewz0KSXTNuniTdHcMEz-7" value="test" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="12" width="60" height="20" as="geometry" />
+          <mxGeometry x="99" y="122" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vewz0KSXTNuniTdHcMEz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="vewz0KSXTNuniTdHcMEz-8" target="GBYmNROyBl1REkO2jNJO-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vewz0KSXTNuniTdHcMEz-8" value="webform" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="36" width="60" height="20" as="geometry" />
+          <mxGeometry x="99" y="146" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
