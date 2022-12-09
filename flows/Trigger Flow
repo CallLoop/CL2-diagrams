@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-09T12:00:19.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="QUJCKYL0dnSAjm3pk5nu" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-09T14:36:45.126Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="_vzmbnNABAz-jyGbjUxo" type="github" pages="2">
   <diagram id="6mWHe31trEwXh2VW7sBy" name="Lambda">
     <mxGraphModel dx="1316" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -37,6 +37,9 @@
         </mxCell>
         <mxCell id="urBoWDfc5zxHPP9PBHFQ-10" value="Send Trigger Input to Queue" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="urBoWDfc5zxHPP9PBHFQ-1">
           <mxGeometry x="680" y="15" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="KXR70lQ7qMTNdXacXSYZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="urBoWDfc5zxHPP9PBHFQ-1" source="urBoWDfc5zxHPP9PBHFQ-11" target="KXR70lQ7qMTNdXacXSYZ-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="urBoWDfc5zxHPP9PBHFQ-11" value="trigger-input" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=11;fontStyle=1;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;labelBorderColor=none;" vertex="1" parent="urBoWDfc5zxHPP9PBHFQ-1">
           <mxGeometry x="880" y="8.5" width="48" height="48" as="geometry" />
@@ -78,6 +81,11 @@
         <mxCell id="urBoWDfc5zxHPP9PBHFQ-19" value="Response with&lt;br&gt;statusCode = code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="urBoWDfc5zxHPP9PBHFQ-1">
           <mxGeometry x="680" y="90" width="120" height="35" as="geometry" />
         </mxCell>
+        <UserObject label="&lt;font color=&quot;#4277bb&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Trigger webhook&lt;br&gt;Worker&lt;/span&gt;&lt;/font&gt;" id="KXR70lQ7qMTNdXacXSYZ-1">
+          <mxCell style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#EE472A;gradientColor=none;aspect=fixed;" vertex="1" parent="urBoWDfc5zxHPP9PBHFQ-1">
+            <mxGeometry x="980" y="9" width="48" height="48" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="urBoWDfc5zxHPP9PBHFQ-22" value="Validate Trigger Input" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#d79b00;fillColor=#ffe6cc;verticalAlign=top;align=left;spacingLeft=30;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="540" width="247" height="190" as="geometry" />
         </mxCell>
