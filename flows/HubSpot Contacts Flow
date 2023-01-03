@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T10:11:30.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="BCCtoUWzOm-Myd9qe5oi" version="20.7.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-03T11:29:37.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="j8yklJ2zHgzXH44Mjx5F" version="20.7.4" type="github" pages="3">
   <diagram id="CZVI3IJxSEXpVUbZ43jJ" name="HubSpot Worker">
     <mxGraphModel dx="1328" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -227,7 +227,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="emh1LVjrkTPBIws-N_Ok-2" value="&lt;b&gt;Update Member&lt;/b&gt;&lt;br&gt;email&lt;br&gt;firstName&lt;br&gt;lastName&lt;br&gt;phone&lt;br&gt;hubspotId" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dNuutidv4Y4w3MjsHPrA-1" target="emh1LVjrkTPBIws-N_Ok-1">
+        <mxCell id="emh1LVjrkTPBIws-N_Ok-2" value="&lt;b&gt;&lt;u&gt;Update Member&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;key:&lt;/b&gt; email&lt;br&gt;&lt;b&gt;key:&lt;/b&gt; hubspotId&lt;br&gt;&lt;b&gt;data: &lt;/b&gt;firstName&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;data:&amp;nbsp;&lt;/b&gt;lastName&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;data:&amp;nbsp;&lt;/b&gt;phone" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dNuutidv4Y4w3MjsHPrA-1" target="emh1LVjrkTPBIws-N_Ok-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="74" y="140" />
@@ -255,7 +255,7 @@
         <mxCell id="emh1LVjrkTPBIws-N_Ok-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="emh1LVjrkTPBIws-N_Ok-5" target="emh1LVjrkTPBIws-N_Ok-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="emh1LVjrkTPBIws-N_Ok-5" value="Validate contact data&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(at least one of firstName lastName companyName is not blank)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="emh1LVjrkTPBIws-N_Ok-5" value="Validate contact data&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(any &lt;b&gt;key&lt;/b&gt; or &lt;b&gt;data&lt;/b&gt; present)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6.5" y="510" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="emh1LVjrkTPBIws-N_Ok-10" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="emh1LVjrkTPBIws-N_Ok-7" target="emh1LVjrkTPBIws-N_Ok-9">
@@ -379,7 +379,7 @@
       <root>
         <mxCell id="BO11iryACyPqR2vyNGtY-0" />
         <mxCell id="BO11iryACyPqR2vyNGtY-1" parent="BO11iryACyPqR2vyNGtY-0" />
-        <mxCell id="BO11iryACyPqR2vyNGtY-2" value="&lt;b&gt;Update Organization&lt;/b&gt;&lt;br&gt;companyName&lt;br&gt;teamSize&lt;br&gt;email" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="BO11iryACyPqR2vyNGtY-1" source="BO11iryACyPqR2vyNGtY-3" target="BO11iryACyPqR2vyNGtY-5">
+        <mxCell id="BO11iryACyPqR2vyNGtY-2" value="&lt;b&gt;&lt;u&gt;Update Organization&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;key: &lt;/b&gt;email&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;key:&amp;nbsp;&lt;/b&gt;hubspotId&lt;br&gt;data: companyName&lt;br&gt;&lt;b&gt;data: &lt;/b&gt;teamSize" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="BO11iryACyPqR2vyNGtY-1" source="BO11iryACyPqR2vyNGtY-3" target="BO11iryACyPqR2vyNGtY-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="74" y="140" />
@@ -407,7 +407,7 @@
         <mxCell id="BO11iryACyPqR2vyNGtY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="BO11iryACyPqR2vyNGtY-1" source="BO11iryACyPqR2vyNGtY-9" target="BO11iryACyPqR2vyNGtY-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BO11iryACyPqR2vyNGtY-9" value="Validate contact data&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(at least one of firstName lastName companyName is not blank)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="BO11iryACyPqR2vyNGtY-1">
+        <mxCell id="BO11iryACyPqR2vyNGtY-9" value="Validate contact data&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 10px;&quot;&gt;(any&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;key&lt;/b&gt;&amp;nbsp;or&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;data&lt;/b&gt;&amp;nbsp;present)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="BO11iryACyPqR2vyNGtY-1">
           <mxGeometry x="6.5" y="510" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BO11iryACyPqR2vyNGtY-10" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="BO11iryACyPqR2vyNGtY-1" source="BO11iryACyPqR2vyNGtY-12" target="BO11iryACyPqR2vyNGtY-13">
