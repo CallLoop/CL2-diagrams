@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T12:51:40.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="FbL7YOfhB1RbwolHdMZX" version="20.7.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-03T12:56:38.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_3F5i1zdSsEljaR3pT9l" version="20.7.4" type="github" pages="3">
   <diagram id="9gfB9PPj81p7xpwn-dtV" name="Update Member">
     <mxGraphModel dx="1328" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -303,7 +303,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PLIKxv9XG6VTJt8R1zbN" name="update subscription">
-    <mxGraphModel dx="1328" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1568" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -366,8 +366,55 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="zo1lT86HOSQdhobvTOHn-17" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zo1lT86HOSQdhobvTOHn-13" target="zo1lT86HOSQdhobvTOHn-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zo1lT86HOSQdhobvTOHn-13" value="is Null?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="334" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zo1lT86HOSQdhobvTOHn-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zo1lT86HOSQdhobvTOHn-16" target="zo1lT86HOSQdhobvTOHn-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zo1lT86HOSQdhobvTOHn-16" value="Get Contact with&lt;br&gt;Company Id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="344" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zo1lT86HOSQdhobvTOHn-21" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zo1lT86HOSQdhobvTOHn-18" target="zo1lT86HOSQdhobvTOHn-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zo1lT86HOSQdhobvTOHn-22" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zo1lT86HOSQdhobvTOHn-18" target="zo1lT86HOSQdhobvTOHn-4">
+          <mxGeometry x="-0.9354" y="-17" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="477" />
+              <mxPoint x="300" y="795" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zo1lT86HOSQdhobvTOHn-18" value="found&lt;br&gt;Contact?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="437" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zo1lT86HOSQdhobvTOHn-24" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zo1lT86HOSQdhobvTOHn-20" target="zo1lT86HOSQdhobvTOHn-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zo1lT86HOSQdhobvTOHn-25" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zo1lT86HOSQdhobvTOHn-20" target="zo1lT86HOSQdhobvTOHn-4">
+          <mxGeometry x="-0.923" y="-17" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="577" />
+              <mxPoint x="300" y="795" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zo1lT86HOSQdhobvTOHn-20" value="Company&lt;br&gt;associated?" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="430" y="537" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zo1lT86HOSQdhobvTOHn-26" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zo1lT86HOSQdhobvTOHn-23" target="zo1lT86HOSQdhobvTOHn-4">
+          <mxGeometry x="-0.938" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zo1lT86HOSQdhobvTOHn-23" value="update company by ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="657" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
