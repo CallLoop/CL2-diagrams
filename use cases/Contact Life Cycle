@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T09:32:58.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.0" etag="6vRofZnJ6AP1ZNJXju-E" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-24T09:49:08.528Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.0" etag="bXNJ282psQafYaGTDrhx" type="github">
   <diagram id="u2iqa3Ddt2-3lzq0qDT3" name="Page-1">
     <mxGraphModel dx="1328" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -33,6 +33,18 @@
         </mxCell>
         <mxCell id="yqLaY0he_2fw46cOb6jK-11" value="&lt;pre style=&quot;border-color: var(--border-color); text-align: left; background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(102, 14, 122); font-weight: bold; font-style: italic;&quot;&gt;RE_SUBSCRIBED&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="335" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yqLaY0he_2fw46cOb6jK-13" value="&lt;span style=&quot;text-align: left;&quot;&gt;Double Opt-In&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="595" y="10" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yqLaY0he_2fw46cOb6jK-15" value="&lt;pre style=&quot;border-color: var(--border-color); text-align: left; background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(102, 14, 122); font-weight: bold; font-style: italic;&quot;&gt;OptInRequired&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="620" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yqLaY0he_2fw46cOb6jK-16" value="&lt;pre style=&quot;border-color: var(--border-color); text-align: left; background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(102, 14, 122); font-weight: bold; font-style: italic;&quot;&gt;OptInRequested&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="620" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yqLaY0he_2fw46cOb6jK-17" value="&lt;pre style=&quot;border-color: var(--border-color); text-align: left; background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(102, 14, 122); font-weight: bold; font-style: italic;&quot;&gt;OptInConfirmed&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="620" y="211" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
